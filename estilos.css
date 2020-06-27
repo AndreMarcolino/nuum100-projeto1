@@ -1,0 +1,85 @@
+body {
+    font-family: Arial;
+    background-color: #eff2f7;
+    text-align: center;
+    color: #3a8d80;
+}
+
+hr {
+    max-width: 50px;
+    border-bottom: 0;
+    border-top: 1px solid  #3a8d80;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+small {
+    color: #777777;
+}
+
+
+/* capa */
+#capa {
+    background-image: url(imagens/bolhas.png);
+    height: 220px;
+    border-radius: 8px;
+}
+
+/* perfil */
+#perfil {
+    margin-top: -70px;
+}
+
+#perfil img {
+    border: 10px solid  #eff2f7;
+}
+
+
+/* links externos */
+#links-externos {
+    padding: 0;
+}
+
+/* o li tira as bolinhas da lista */
+#links-externos li {
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+#links-externos a {
+    color:  #3a8d80;
+    background-color: white;
+    padding: 10px;
+    display: block;
+    border-radius: 4px;
+    font-weight: bold;    
+}
+
+/* pseudo classe que vai estiliar quando passar o mouse por cima, vai ficar opacite fica transparente, para comentar control ponto e virgula  */
+#links-externos a:hover {
+    background-color: #3a8d80;
+    color: white;     
+}
+
+#links-sociais a:hover {   
+   opacity: 0.5;        
+}         
+
+#pagina {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+}
